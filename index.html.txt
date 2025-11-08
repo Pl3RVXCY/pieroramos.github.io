@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piero Ramos - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h2>Piero Ramos</h2>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight">Piero Ramos</span></h1>
+            <p>Desarrollador Web | Estudiante</p>
+            <a href="#proyectos" class="btn">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy Piero Ramos, me apasiona el desarrollo web y la programación. Actualmente estudio y me preparo para ser desarrollador full-stack.</p>
+                    <p>Me encanta aprender nuevas tecnologías y crear proyectos innovadores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Mi Portafolio</h3>
+                    <p>Mi sitio web personal creado con HTML y CSS.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Proyecto Universitario</h3>
+                    <p>Proyectos desarrollados durante mis estudios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <p>📧 piero.ramos@ejemplo.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/pieroramos">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Piero Ramos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
